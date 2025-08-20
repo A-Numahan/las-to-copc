@@ -122,4 +122,22 @@ python las\_to\_copc.py <path> \[options]
 ## Conversion speed chart
 ![Estimated conversion time at 5 minutes per GB](./convert_time_1to20gb_en.png)
 
+## Example: Viewing a COPC in the browser
+
+![COPC in viewer.copc.io – elevation coloring](./Preview.jpeg)
+<!-- Change the path above if your image lives elsewhere, e.g., assets/Preview.jpeg -->
+
+Screenshot: a COPC point cloud opened in **[viewer.copc.io](https://viewer.copc.io/)**, colored by **Elevation**.
+
+### How to reproduce
+1. Host your `.copc.laz` at a **public HTTPS URL** that allows **HTTP range requests** and **CORS** (e.g., S3/CloudFront, Azure Blob Static Website, GCS).
+2. Open https://viewer.copc.io/
+3. Paste the file URL into **Enter URL** → click **Open**.
+4. In **Colors → Point clouds**, choose **Elevation**, adjust the value range sliders and **Opacity**.
+5. Mouse/keyboard: **Left-drag** = orbit, **Right-drag** = pan, **Wheel** = zoom, **R** = reset view.
+
+> Notes
+> - Local files (`file://`) or private links won’t load; the viewer fetches data directly from the URL.
+> - If you see a network/CORS error, make the object public and enable CORS on the bucket.
+
 
