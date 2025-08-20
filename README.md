@@ -117,4 +117,5 @@ python las\_to\_copc.py <path> \[options]
 --overwrite      Overwrite existing outputs.
 
 
-[convert_time_1to20gb_en.png](https://github.com/A-Numahan/las-to-copc/blob/main/convert_time_1to20gb_en.png)
+![Alt](./convert_time_1to20gb_en.png)
+
