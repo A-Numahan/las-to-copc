@@ -1,4 +1,4 @@
-\# las-to-copc
+## las-to-copc
 
 
 
@@ -12,7 +12,7 @@ It supports \*\*single-file\*\* and \*\*whole-folder\*\* processing (non-recursi
 
 
 
-\## Features
+## Features
 
 
 
@@ -32,7 +32,7 @@ It supports \*\*single-file\*\* and \*\*whole-folder\*\* processing (non-recursi
 
 
 
-\## Requirements
+## Requirements
 
 
 
