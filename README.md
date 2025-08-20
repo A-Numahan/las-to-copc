@@ -59,6 +59,7 @@ pdal --drivers | findstr /i copc
 
 
 Quick install (Conda recommended)
+```
 
 conda create -n copc -c conda-forge python=3.10 pdal libcopc laszip laz-perf
 
@@ -67,6 +68,7 @@ conda activate copc
 
 
 Quick Start
+```
 
 \# Single file → writes input.copc.laz next to the input
 
