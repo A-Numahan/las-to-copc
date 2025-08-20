@@ -115,13 +115,7 @@ python las\_to\_copc.py <path> \[options]
 --workers N      Parallel processes (file-level parallelism).
 
 --overwrite      Overwrite existing outputs.
-
-
-
-
-
-
-
+```
 
 ## Conversion speed chart
 ![Estimated conversion time at 5 minutes per GB](./convert_time_1to20gb_en.png)
