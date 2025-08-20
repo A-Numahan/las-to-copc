@@ -55,19 +55,19 @@ pdal --drivers | grep -i copc        # Linux/Mac
 \# or on Windows:
 
 pdal --drivers | findstr /i copc
+```
 
 
-
-Quick install (Conda recommended)
+## Quick install (Conda recommended)
 ```
 
 conda create -n copc -c conda-forge python=3.10 pdal libcopc laszip laz-perf
 
 conda activate copc
+```
 
 
-
-Quick Start
+## Quick Start
 ```
 
 \# Single file → writes input.copc.laz next to the input
@@ -91,11 +91,11 @@ python las\_to\_copc.py input.las --in-srs EPSG:32647 --out-srs EPSG:4978
 \# Set COPC scale/offset (offset can be numbers or 'auto')
 
 python las\_to\_copc.py input.las --scale 0.001 0.001 0.001 --offset auto auto auto
+```
 
 
-
-Command-Line Arguments
-
+## Command-Line Arguments
+```
 python las\_to\_copc.py <path> \[options]
 
 
