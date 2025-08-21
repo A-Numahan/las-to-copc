@@ -119,8 +119,30 @@ python las\_to\_copc.py <path> \[options]
 --overwrite      Overwrite existing outputs.
 ```
 
-## Conversion speed chart
-![Estimated conversion time at 5 minutes per GB](./convert_time_1to20gb_en.png)
+## Results (console output)
+
+This screenshot shows an example **batch conversion** run of LAS/LAZ → COPC.  
+It lists each input file, the generated `.copc.laz`, and the **elapsed time per file**.  
+A summary line at the bottom reports total successes/failures.
+
+![Batch conversion results](./Result.png)
+
+---
+
+## Conversion speed (chart)
+
+This bar chart summarizes the **conversion time per file** (minutes).  
+Use it to compare performance across files/sizes and to estimate total runtime.
+
+![Conversion time per file (.las → .copc.laz)](./Conversion_Time.png)
+
+**Sample time estimates (assuming ~5 minutes per 1 GB):**
+- **1 GB** → **5 minutes** (0h 05m)  
+- **5 GB** → **25 minutes** (0h 25m)  
+- **10 GB** → **50 minutes** (0h 50m)  
+- **15 GB** → **75 minutes** (1h 15m)  
+- **20 GB** → **100 minutes** (1h 40m)
+
 
 ## Example: Viewing a COPC in the browser
 
